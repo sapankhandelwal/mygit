@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>LMS Due Date Passed Template</name>
+    <style>none</style>
+    <subject>Library Item {!Library_Issue_Ret_Item__c.Library_Item_Name__c} Due Date passed Notification</subject>
+    <textOnly>Hi, Due Date for Item {!Library_Issue_Ret_Item__c.Library_Item__r.Name} has Passed its Due date  {!Library_Issue_Ret_Item__c.Expected_Return_Date__c}  Please return the Book  with due amount {!Library_Issue_Ret_Item__c.Fine__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

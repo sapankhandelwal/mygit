@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Item_Issue_for_No_Availability</fullName>
+    <active>true</active>
+    <description>This would be used to restrict issue if available Items are zero</description>
+    <errorConditionFormula>and(Library_Item__r.Total_Available__c ==0, Text(Status__c)==&#39;Issued&#39; )</errorConditionFormula>
+    <errorMessage>Cannot Issue Item as it is out of stock</errorMessage>
+</ValidationRule>

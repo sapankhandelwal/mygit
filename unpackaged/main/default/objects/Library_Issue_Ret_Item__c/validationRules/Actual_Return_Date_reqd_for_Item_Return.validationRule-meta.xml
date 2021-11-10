@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Return_Date_reqd_for_Item_Return</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Text(Status__c)==&#39;Returned&#39;,IsBlank( Actual_Return_Date__c ))</errorConditionFormula>
+    <errorDisplayField>Actual_Return_Date__c</errorDisplayField>
+    <errorMessage>Actual Return Date is Required when Item is Returned</errorMessage>
+</ValidationRule>

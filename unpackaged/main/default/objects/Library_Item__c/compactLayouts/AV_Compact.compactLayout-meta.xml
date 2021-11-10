@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AV_Compact</fullName>
+    <fields>Author__c</fields>
+    <fields>Name</fields>
+    <fields>ISBN_No__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Publisher__c</fields>
+    <fields>Publishing_Date__c</fields>
+    <label>AV Compact</label>
+</CompactLayout>

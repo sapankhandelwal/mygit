@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fine__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(!skip_Fine__c &amp;&amp;Text(Status__c)==&#39;Returned&#39; &amp;&amp; Actual_Return_Date__c &gt;Expected_Return_Date__c,(if( Library_Item__r.RecordType.DeveloperName==&#39;Book&#39; ,(Actual_Return_Date__c - Expected_Return_Date__c)* $Setup.Library_General_Settings__c.Daily_Fine_Books__c,if(Library_Item__r.RecordType.DeveloperName==&#39;Magazine&#39; ,(Actual_Return_Date__c - Expected_Return_Date__c)* $Setup.Library_General_Settings__c.Daily_Fine_Magazines__c,(Actual_Return_Date__c - Expected_Return_Date__c)* $Setup.Library_General_Settings__c.Daily_Fine_AV__c))),if(!skip_Fine__c &amp;&amp;Text(Status__c)==&#39;Lost&#39;,$Setup.Library_General_Settings__c.Lost_Charge__c* Library_Item__r.Item_Price__c,0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Fine</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

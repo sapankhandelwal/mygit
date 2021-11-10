@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Issued To --></label>
+        <name>Issued_To__c</name>
+        <relationshipLabel><!-- Issue/Return Item(s) --></relationshipLabel>
+    </CustomFieldTranslation>

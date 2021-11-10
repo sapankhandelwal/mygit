@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Magazine</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Book_Compact</compactLayoutAssignment>
+    <description>This is used for Issue Magazine</description>
+    <label>Magazine</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Animals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programming Languages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wildlife</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Magazines</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

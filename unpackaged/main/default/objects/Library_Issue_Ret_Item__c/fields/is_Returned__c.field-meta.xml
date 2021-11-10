@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Returned__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This would be checked when status=returned and would b used to RollUp</description>
+    <externalId>false</externalId>
+    <label>is Returned</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

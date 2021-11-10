@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- LMS Search Contact Fields --></label>
+        <name>LMS_Search_Contact_Fields</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- LMS Contact --></label>
+        <name>LMS_Contact</name>
+    </recordTypes>
+</CustomObjectTranslation>

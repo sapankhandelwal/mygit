@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Issue/Return Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Issue/Return Item(s)</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- LMS Search IssueReturn Fields --></label>
+        <name>LMS_Search_IssueReturn_Fields</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Actual Return Date cannot be a Future Date --></errorMessage>
+        <name>Actual_Date_cannot_be_a_Futur_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Actual Return Date cannot be before Issue Date --></errorMessage>
+        <name>Actual_Date_cannot_be_before_Issue_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Actual Return Date is Required when Item is Returned --></errorMessage>
+        <name>Actual_Return_Date_reqd_for_Item_Return</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Return Date cannot be before Issue Date --></errorMessage>
+        <name>Expcted_Date_cannot_be_before_IssueDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- New Item cannot have status as [Returned] --></errorMessage>
+        <name>New_Item_Status_cant_be_Returned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Issue Item as it is out of stock --></errorMessage>
+        <name>Restrict_Item_Issue_for_No_Availability</name>
+    </validationRules>
+</CustomObjectTranslation>

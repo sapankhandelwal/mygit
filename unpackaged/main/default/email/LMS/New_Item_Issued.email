@@ -1,0 +1,7 @@
+Hi ,
+
+New Item {!Library_Issue_Ret_Item__c.Library_Item_Name__c} has been issued  to you,
+Please return on/before Due Date {!Library_Issue_Ret_Item__c.Expected_Return_Date__c}
+
+Regards
+LMS Team

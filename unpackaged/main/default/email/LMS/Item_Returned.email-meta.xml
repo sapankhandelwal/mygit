@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Item Returned template</name>
+    <style>none</style>
+    <subject>{!Library_Issue_Ret_Item__c.Library_Item_Name__c}Item Returned Notifcation</subject>
+    <textOnly>Hi , Item {!Library_Issue_Ret_Item__c.Library_Item_Name__c} has been returned by you. Regards LMS Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

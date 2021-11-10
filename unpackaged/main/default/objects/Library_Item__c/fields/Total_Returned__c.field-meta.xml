@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Returned__c</fullName>
+    <description>This would be used to check the Returned items</description>
+    <externalId>false</externalId>
+    <label>Total Returned</label>
+    <summaryFilterItems>
+        <field>Library_Issue_Ret_Item__c.is_Returned__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Library_Issue_Ret_Item__c.Library_Item__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Library Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Library Items</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- LibraryItem SearchFields --></label>
+        <name>LMS_LibraryItem_SearchFields</name>
+    </fieldSets>
+    <layouts>
+        <layout>LMS Community Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- CD/DVD --></description>
+        <label><!-- AV --></label>
+        <name>AV</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is for Book type Items --></description>
+        <label><!-- Book --></label>
+        <name>Book</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is used for Issue Magazine --></description>
+        <label><!-- Magazine --></label>
+        <name>Magazine</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Publishing Date cannot be after today&apos;s date --></errorMessage>
+        <name>Publshng_Date_cannot_be_lesser_thn_Today</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+Hi,
+
+{!Library_Issue_Ret_Item__c.Library_Item_Name__c} is due to be returned on {!Library_Issue_Ret_Item__c.Expected_Return_Date__c}},Please return to avoid any late fees
+
+Regards
+LMS Team

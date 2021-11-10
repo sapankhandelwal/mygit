@@ -1,0 +1,4 @@
+Hi,
+Due Date for Item  {!Library_Issue_Ret_Item__c.Library_Item_Name__c}has Passed its Due date  {!Library_Issue_Ret_Item__c.Expected_Return_Date__c}
+
+Please return the Book  with due amount {!Library_Issue_Ret_Item__c.Fine__c}
